@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>AntonPaar User Application</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+
+<h3 id="header">Please select a file:</h3>
+<label for="fileList" id="fileLabel">File: </label>
+<select id="fileList" onchange="readLines()"></select>
+
+<br>
+<div class="flex-parent">
+    <label for="progress-bar" id="barLabel">Progress: </label>
+    <div id="progress-bar"></div>
+    <button id="break" onclick="abortProgress()">Abort</button>
+</div>
+<br><br>
+
+<table id="showTable">
+</table>
+
 </body>
 </html>

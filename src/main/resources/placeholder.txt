@@ -1,0 +1,1 @@
+This file is just a placeholder, so that all other files in the resource folder can be read

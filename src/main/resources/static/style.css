@@ -1,0 +1,75 @@
+.flex-parent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 10px;
+
+}
+
+#progress-bar{
+
+    border:1px solid black;
+    height: 20px;
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+#loading-bar{
+
+    background: greenyellow;
+    border-radius: 20px;
+    height: 100%;
+
+}
+
+#header{
+
+    margin-left: 38.5%;
+
+}
+
+#fileLabel{
+
+    margin-left: 38.5%;
+
+}
+
+#barLabel{
+
+    float: left;
+    margin-left: 38.5%;
+    vertical-align: middle;
+
+}
+
+#break{
+
+    float: right;
+    margin-right: 38.5%;
+
+}
+
+#showTable{
+
+    border:2px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.show-table-entry{
+
+    border-bottom:1px solid black;
+
+}
+
+.show-table-header{
+
+    border-bottom:2px solid black;
+    width: 15%;
+
+}
